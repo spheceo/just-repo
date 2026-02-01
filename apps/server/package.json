@@ -1,0 +1,6 @@
+{
+  "name": "just-api",
+  "scripts": {
+    "dev": "cargo watch -x run"
+  }
+}
