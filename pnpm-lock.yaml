@@ -14,9 +14,6 @@ importers:
 
   apps/next:
     dependencies:
-      '@just/api-types':
-        specifier: workspace:*
-        version: link:../../packages/api-types
       '@t3-oss/env-nextjs':
         specifier: ^0.13.10
         version: 0.13.10(typescript@5.9.3)(zod@4.3.6)
@@ -55,9 +52,7 @@ importers:
         specifier: ^5
         version: 5.9.3
 
-  apps/rust: {}
-
-  packages/api-types: {}
+  apps/server: {}
 
 packages:
 
