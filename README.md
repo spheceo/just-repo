@@ -8,6 +8,9 @@ pnpm install
 pnpm dev
 ```
 
+### Deployment
+Designed to run on **Vercel** for both the frontend and the Rust API. You can deploy elsewhere, but you’ll need to configure the environment and runtime yourself.
+
 ### Environment variables
 - `NEXT_PUBLIC_API_URL` is required in production (Vercel) so the homepage can fetch the API response. The prod build **will fail** without it, since `@t3-oss/env-nextjs` validates env vars at build time.
 
