@@ -8,6 +8,9 @@ pnpm install
 pnpm dev
 ```
 
+### Environment variables
+- `NEXT_PUBLIC_API_URL` is required in production (Vercel) so the homepage can fetch the API response. The prod build **will fail** without it, since `@t3-oss/env-nextjs` validates env vars at build time.
+
 ### Monorepo tooling
 - Turborepo for task orchestration (`turbo dev`)
 - pnpm workspaces for package management
